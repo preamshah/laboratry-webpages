@@ -1,0 +1,48 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Build / Cache
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Netlify
+.netlify/
+
+# Local Server
+.server/
+live-server/
+
+# Misc
+*.zip
+*.rar
+*.7z
