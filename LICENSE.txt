@@ -1,0 +1,6 @@
+This site is developed by Pream shah
+Website source code in this package is provided for the Mahi Pathology Lab website prototype and may be customized and deployed by the recipient.
+
+Third-party assets and services remain subject to their own licenses and terms, including Google Fonts, Font Awesome, Google Maps, WhatsApp and Unsplash imagery. Image credits and source links are listed in README.md.
+
+Before public/commercial production use, verify all laboratory contact details, business claims, services, tests, operating hours, prices, medical statements and third-party licensing requirements with the business owner or authorized representative.
