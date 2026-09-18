@@ -1,41 +1,218 @@
-# Mahi Pathology Lab Website
+# 🧪 Mahi Pathology Lab Website
 
-Modern responsive static website for **Mahi Pathology Lab, Janakpur, Nepal**.
+A modern, responsive and user-friendly website developed for **Mahi Pathology Lab, Janakpur, Nepal**.
 
-## Verified public business details used
-- Business name: Mahi Pathology Lab
-- Category: Medical laboratory
+The website provides patients with an easy way to explore common pathology testing categories, contact the laboratory, get directions and send test enquiries directly through WhatsApp.
 
-Public web listing references were checked on 22 Aug 2026. Business details can change, so verify them with the lab before publishing the site.
+## 🌐 Live Website
 
-## Features
-- Responsive desktop, tablet and mobile layout
-- Sticky navigation and mobile menu
-- Modern pathology/diagnostic visual style
-- WhatsApp floating button
-- WhatsApp test-enquiry form (static/no backend)
-- Click-to-call buttons
-- Google Maps location and embedded map
-- Common pathology test/service information
-- FAQ accordion
-- Scroll reveal animation
-- Back-to-top control
-- SEO meta tags and Schema.org MedicalLaboratory structured data
-- SVG favicon
-- Accessibility basics and reduced-motion support
+**Website:** https://mahipathology.netlify.app/
 
-## Important content note
-The named test categories shown in the website are representative/common pathology tests for interface purposes. They were **not** found as a verified current test catalogue for Mahi Pathology Lab. Confirm test availability, pricing, preparation instructions, home collection, opening hours and report turnaround directly with the lab before production publishing.
+## 📌 About the Project
 
-## Image credits
-The website loads free-to-use imagery from Unsplash:
-- National Cancer Institute / Unsplash — laboratory technician with microscope: https://unsplash.com/photos/man-looking-at-microscope-rHfsPolwIgk
-- National Cancer Institute / Unsplash — blood sample test tubes: https://unsplash.com/photos/clear-glass-test-tubes-egT3xtDu9DQ
-- Adrian Sulyok / Unsplash — laboratory blood tube: https://unsplash.com/photos/a-gloved-hand-holding-a-test-tube-filled-with-blood-sZO8ILzGKcg
-- Amari Shutters / Unsplash — laboratory team: https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ
-- Akram Huseyn / Unsplash — microscope/laboratory image: https://unsplash.com/photos/a-gloved-hand-operating-a-microscope-in-a-laboratory-Qv8JEwWUhSI
+This project is a responsive static laboratory website built using **HTML5, CSS3 and JavaScript**.
 
-See the Unsplash License for image-use terms: https://unsplash.com/license
+The interface is designed to provide a clean and professional digital presence for Mahi Pathology Lab while making important laboratory information easily accessible across smartphones, tablets and desktop devices.
 
-## Run locally
-Open `index.html` in a modern browser, or serve the folder with any static web server.
+Patients can use the website to:
+
+* Learn about pathology testing categories
+* Ask about laboratory tests
+* Contact the laboratory
+* Send WhatsApp enquiries
+* Find the laboratory through Google Maps
+* Check common patient FAQs
+* Review test preparation guidance
+
+## ✨ Features
+
+* Fully responsive design
+* Modern medical laboratory UI
+* Mobile-friendly navigation
+* Sticky navigation header
+* Hero section with laboratory imagery
+* Pathology service categories
+* Popular laboratory test enquiries
+* WhatsApp test enquiry system
+* Click-to-call functionality
+* Google Maps integration
+* Embedded laboratory location map
+* Patient FAQ accordion
+* Smooth scrolling
+* Scroll reveal animations
+* Back-to-top button
+* Floating WhatsApp button
+* Dynamic copyright year
+* Accessibility-friendly navigation
+* SEO-friendly metadata
+* Open Graph metadata
+* Schema.org `MedicalLaboratory` structured data
+* Custom SVG favicon
+
+## 🧪 Laboratory Categories
+
+The website presents common diagnostic categories including:
+
+* Hematology
+* Clinical Biochemistry
+* Urine & Stool Tests
+* Serology
+* Hormone Profiles
+* Wellness Screening
+
+It also provides enquiry options for common tests such as:
+
+* CBC — Complete Blood Count
+* Blood Sugar / Glucose
+* Lipid Profile
+* Liver Function Test (LFT)
+* Kidney Function Test (KFT)
+* Thyroid Profile
+* Urine Routine Examination
+* Vitamin Tests
+* General Health Checkup
+
+> **Note:** Tests displayed on the website are representative examples. Patients should contact Mahi Pathology Lab to confirm current availability, pricing, preparation requirements and report turnaround times.
+
+## 💬 WhatsApp Test Enquiry
+
+One of the main features of the website is its WhatsApp enquiry system.
+
+Users can enter:
+
+* Full name
+* Phone number
+* Test or enquiry type
+* Preferred date
+* Preferred time
+* Additional message
+
+After submitting the form, the website automatically prepares a formatted enquiry and opens WhatsApp.
+
+No backend database is required for this feature.
+
+## 📍 Location Integration
+
+The website includes Google Maps integration so patients can easily locate the laboratory.
+
+**Location:**
+Janakpur Dham Hospital Road
+Janakpur, Nepal
+
+The website includes both:
+
+* Embedded Google Map
+* One-click directions
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript ES6+
+
+### External Resources
+
+* Google Fonts
+* Font Awesome
+* Google Maps
+* WhatsApp API links
+* Unsplash imagery
+
+## 📁 Project Structure
+
+```text
+laboratry-webpages/
+│
+├── assets/
+│   └── icons/
+│       └── favicon.svg
+│
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+## 🚀 Running the Project Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/preamshah/laboratry-webpages.git
+```
+
+Open the project directory:
+
+```bash
+cd laboratry-webpages
+```
+
+Then open:
+
+```text
+index.html
+```
+
+in any modern browser.
+
+You can also run the project using the **Live Server** extension in Visual Studio Code.
+
+## 📱 Responsive Design
+
+The interface has been designed for:
+
+* Smartphones
+* Tablets
+* Laptops
+* Desktop monitors
+* Large screens
+
+Responsive CSS layouts and flexible typography help maintain usability across different screen sizes.
+
+## 🔍 SEO
+
+The website includes:
+
+* Meta description
+* Meta keywords
+* Robots directives
+* Open Graph metadata
+* Semantic HTML
+* Schema.org structured data
+* Descriptive headings
+* Accessible navigation
+* Mobile viewport configuration
+
+The structured data identifies the organization using the Schema.org `MedicalLaboratory` type.
+
+## 🔒 Privacy
+
+The website is primarily static.
+
+The test enquiry form does **not store patient information on a server**. Form information is used to generate a WhatsApp message which the user reviews before sending.
+
+## ⚠️ Medical Information Disclaimer
+
+Information presented on this website is provided for general informational and enquiry purposes.
+
+Patients should contact the laboratory or their healthcare provider for medical advice, test preparation instructions, availability, pricing and interpretation of laboratory results.
+
+## 👨‍💻 Developer
+
+**Designed & Developed by Pream Shah**
+
+GitHub: https://github.com/preamshah
+
+## 📄 License
+
+This project includes a license file in the repository.
+
+Please review the `LICENSE` file before copying, modifying or redistributing the project.
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star.
