@@ -5,8 +5,6 @@ Modern responsive static website for **Mahi Pathology Lab, Janakpur, Nepal**.
 ## Verified public business details used
 - Business name: Mahi Pathology Lab
 - Category: Medical laboratory
-- Phone: +977 980-9698988
-- Location: PWMF+3CW, Janakpur 45600, Nepal
 
 Public web listing references were checked on 22 Aug 2026. Business details can change, so verify them with the lab before publishing the site.
 
